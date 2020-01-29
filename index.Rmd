@@ -4,6 +4,7 @@ author: "Joseph Imperato"
 date: "1/29/2020"
 output: html_document
 ---
+
 Introduction:  The authors of the “Qualitative Activity Recognition of Weight Lifting Exercises” article demonstrate a methodology to leverage recordings from sensors on individuals performing certain exercises to determine the quality of the execution of the exercise.  My project will use this recorded information to train a model to predict, based on a set of recordings, how well an exercise was executed.
 
 Data Preparation:  The first step will be to read the csv file into R for pre- processing.  The training data will be stored in traindat and the test data will be testdat.  Then the data will be analyzed using R commands such as dim(), head() [output not shown] and table().  These commands are listed below. 
